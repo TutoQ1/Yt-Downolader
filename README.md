@@ -22,8 +22,10 @@ then u do that, save dir and then u can be able tu download
 
 <img width="397" height="524" alt="image" src="https://github.com/user-attachments/assets/5d250772-2473-4b4b-8e9f-4649ac427dbd" />
 
-(important, dont put quotes( " " ) on dir field
+(important, dont put quotes( " " ) on directory field
+
 
 Here u can install the dependencies (must have it)
+
 <img width="399" height="529" alt="image" src="https://github.com/user-attachments/assets/66bbefa7-2648-4bdc-9e93-2af3009d5eb3" />
 

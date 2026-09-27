@@ -31,4 +31,4 @@ Here u can install the dependencies (must have it)
 
 # IMPORTANT
 
-may in window media this isnt working, try VLC instead
+may in window media player, this isnt working, try VLC instead

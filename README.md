@@ -5,7 +5,7 @@ https://github.com/yt-dlp/yt-dlp
 # Release
 https://drive.google.com/file/d/1hxHqIpKpXxVF4ABknEEGqa2gY8KFZ6U5/view?usp=sharing
 
-#how to use
+# How to use
 
 <img width="397" height="529" alt="image" src="https://github.com/user-attachments/assets/98665350-d744-48ce-8f82-08760ad003f1" />
 

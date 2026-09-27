@@ -11,13 +11,12 @@ https://drive.google.com/file/d/1hxHqIpKpXxVF4ABknEEGqa2gY8KFZ6U5/view?usp=shari
 
 input the source root in that field
 
-(in case u dont know u can right click where u want to save the video and select the propert option)
-<img width="397" height="466" alt="image" src="https://github.com/user-attachments/assets/2412710f-4178-4cce-8f0e-4dbb42b545e3" />
+(in case u dont know, u can right click where u want to save the video and select the propert option)
+<img width="398" height="456" alt="image" src="https://github.com/user-attachments/assets/e6c8e5ba-3222-42f3-a35b-57bc65ed3a93" />
 
-same works for example for this
+same works for this 
 
-<img width="436" height="413" alt="image" src="https://github.com/user-attachments/assets/8e18ec4e-aac5-4335-93bd-87b3c487abed" />
-
+<img width="427" height="574" alt="image" src="https://github.com/user-attachments/assets/04a09049-f1d8-4021-b640-101cdbedd078" />
 
 then u do that, save dir and then u can be able tu download
 

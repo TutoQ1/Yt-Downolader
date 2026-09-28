@@ -3,7 +3,7 @@ This is a layer powered thanks other github proyect
 https://github.com/yt-dlp/yt-dlp
 
 # Release
-https://drive.google.com/file/d/1hxHqIpKpXxVF4ABknEEGqa2gY8KFZ6U5/view?usp=sharing
+https://github.com/TutoQ1/Yt-Downolader/releases#release-untagged-d8d8858919bd33d3764f
 
 # How to use
 

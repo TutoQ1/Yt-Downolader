@@ -10,10 +10,12 @@ import java.io.InputStreamReader;
 public class Downloader {
     Repo repo = new Repo();
 
-    public void execute(String URL) throws Exception
+    public String execute(String URL) throws Exception
     {
         String outPutDir = repo.LoadConfigDir(); //output video setter
         System.out.println(outPutDir);
+
+        String format  = "\"bv*[vcodec^=avc]+ba[acodec^=mp4a]\"";
         if(URL == null || URL.isBlank())
         {
             throw new Exception("EMPTY FIELD");
@@ -25,9 +27,9 @@ public class Downloader {
         try {
             File builderDir = new File("."); //loads direct
             ProcessBuilder builder = new ProcessBuilder(
-                    "CMD","/c","start",
+                    "CMD","/c", "start",
                     "yt-dlp.exe",
-                    "-f", "bv*+ba/best", "--merge-output-format",
+                    "-f", format, "--merge-output-format",
                     "mp4","-o", outPutDir + "\\%(title)s.%(ext)s" ,
                     URL.trim());
 
@@ -46,6 +48,7 @@ public class Downloader {
             {
                 System.out.println("DONE!");
             }
+            return "DONE!";
         }catch (Exception e)
         {
             throw new Exception("ERROR COMAND FAILED");
@@ -55,6 +58,7 @@ public class Downloader {
     public void installDependencies()
     {
         try {
+
             ProcessBuilder builder = new ProcessBuilder(
                     "CMD","/c", "start",
                     "winget", "install", "ffmpeg",

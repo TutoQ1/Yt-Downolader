@@ -21,6 +21,8 @@ public class controller implements Initializable {
     TextField dirField;
     @FXML
     Label saved;
+    @FXML
+    Label done;
 
     Repo repo = new Repo();
     Downloader dwnload = new Downloader();
@@ -31,6 +33,7 @@ public class controller implements Initializable {
         urlField.setPromptText("URL VIDEO");
         error.setVisible(false);
         saved.setVisible(false);
+        done.setVisible(false);
         try {
             String savedDir = repo.LoadConfigDir();
             if (savedDir != null) {
@@ -41,6 +44,16 @@ public class controller implements Initializable {
         } catch (Exception e) {
             errorBanish(e.getMessage());
         }
+    }
+
+    private void doneTimePause(String message)
+    {
+
+        done.setText(message);
+        done.setVisible(true);
+        PauseTransition pauseTransition = new PauseTransition(Duration.seconds(1.4));
+        pauseTransition.setOnFinished(event ->  done.setVisible(false));
+        pauseTransition.play();
     }
 
     private void saved()
@@ -65,7 +78,9 @@ public class controller implements Initializable {
     {
         try {
             String URL = urlField.getText();
-            dwnload.execute(URL);
+            var done = dwnload.execute(URL);
+            doneTimePause(done);
+
         }catch (Exception e)
         {
             errorBanish(e.getMessage());

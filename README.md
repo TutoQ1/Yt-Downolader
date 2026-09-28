@@ -29,6 +29,3 @@ Here u can install the dependencies (must have it)
 
 <img width="399" height="529" alt="image" src="https://github.com/user-attachments/assets/66bbefa7-2648-4bdc-9e93-2af3009d5eb3" />
 
-# IMPORTANT
-
-may in window media player, this isnt working, try VLC instead
